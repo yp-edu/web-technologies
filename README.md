@@ -2,11 +2,8 @@
 
 Resources for the Web Technologies practical sessions at SU. 
 
-## TDs
+## Sessions
 
-- TD1:
-
-## TPs
-
-- TP1: 
-
+- [Session 1:](./Session1/README.md)
+    - Website Modelling
+    - API REST
