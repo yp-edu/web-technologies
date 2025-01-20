@@ -40,3 +40,7 @@ Theoretical approach to website modelling.
     - [OpenAI API](https://platform.openai.com/docs/api-reference/chat)
     - [Gmail API](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/get)
     - [data.gouv.fr](https://doc.data.gouv.fr/api/reference/#/topics)
+
+- Local API
+    - [FastAPI](./fastapi)
+    - [tsoa](./tsoa)
