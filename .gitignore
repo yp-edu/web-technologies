@@ -1,0 +1,9 @@
+*secret*
+*.env
+*hidden*
+
+.venv
+__pycache__
+
+node_modules
+build
