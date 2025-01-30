@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TD 2 - Formulaire de connexion</title>
+        <meta charset="UTF-8">
+        <style>
+            form {
+                display: grid;
+                grid-template-columns: 150px 150px;
+            }
+
+            body {
+                font-family: Verdana, arial, sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+                color: blue;
+                text-shadow: 1px 1px 0px black;
+            }
+
+            form {
+                border: medium solid black;
+                margin: auto;
+                padding: 10px;
+                width: 300px;
+            }
+
+            input {
+                margin-bottom: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ouvrir une session</h1>
+        <form method="POST" action="javascript:connexion">
+            <label for="login">Login</label><input id="login"/>
+            <label for="mdp">Mot de passe</label><input type="password" id="mdp"/>
+            <button type="submit">Connexion</button><button type="reset">Annuler</button>
+        </form>
+    </body>
+</html>

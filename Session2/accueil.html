@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TD2 - Accueil</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="accueil.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="logo.jpeg" alt="logo">
+            </div>
+            <div id="search">
+                <form id="search_form">
+                    <label for="requete">Rechercher</label><input id="requete">
+                    <input type="submit" id="search_button">
+                    <div id="filtre_div">
+                        <label for="date_deb">Date de début</label><input type="date" id="date_deb">
+                        <label for="date_fin">Date de fin</label><input type="date" id="date_fin">
+                    </div>
+                </form>
+            </div>
+            <div id="connect"><a href="connexion.html" id="connection_link">Connexion</a>&nbsp;<a href="enregistrement.html" id="register_link">Enregistrement</a></div>
+        </header>
+        <main>
+            <aside></aside>
+            <section>
+                <div id="new_comment">
+                    <form id="new_comment_form">
+                        <label for="text_new_comment">Nouveau message&thinsp;:</label>
+                        <textarea id="text_new_comment" rows="2" cols="40"></textarea>
+                        <input type="submit" id="new_button">
+                    </form>
+                </div>
+                <article>
+                    <ul>
+                        <li>
+                            <p><span>Utilisateur 1</span> -- <time>30/01/2024 à 13:53</time></p>
+                            <blockquote>Ceci est un deuxième message (<button>+</button>)</blockquote>
+                        </li>
+                        <li>
+                            <p><span>Utilisateur 2</span> -- <time>30/01/2024 à 13:51</time></p>
+                            <blockquote>Ceci est un premier message (<button>+</button>)
+                                <div id="msg20240130-135210">
+                                    <p><span>Utilisateur 1</span> -- <time>30/01/2024 à 13:52</time></p>
+                                    <blockquote>Ceci est une réponse (<button>+</button>)</blockquote>
+                                </div>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>

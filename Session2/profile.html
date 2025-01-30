@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TD2 - Profil</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="profile.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <a href="accueil.html" id="logo">
+                    <img src="logo.jpeg" alt="logo">
+                </a>
+                <nav id="nav-menu">
+                    <a href="#" class="nav-item">📊 Tendances</a>
+                    <a href="#" class="nav-item">👥 Communauté</a>
+                    <a href="#" class="nav-item active">👤 Mon Profil</a>
+                </nav>
+            </div>
+            <nav class="header-right">
+                <div id="user-actions">
+                    <a href="#" class="notification">🔔 <span class="badge">3</span></a>
+                    <a href="#" class="messages">✉️ <span class="badge">2</span></a>
+                </div>
+                <a href="#" class="logout-btn">📤 Déconnexion</a>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <div class="profile-info">
+                    <img src="profile.jpg" alt="Photo de profil" class="profile-avatar">
+                    <h2>Yoann Poupart</h2>
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <span class="stat-number">42</span>
+                            <span class="stat-label">Messages</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">28</span>
+                            <span class="stat-label">Réponses</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">156</span>
+                            <span class="stat-label">Likes reçus</span>
+                        </div>
+                    </div>
+                    <div class="achievements">
+                        <h3>Badges</h3>
+                        <div class="achievement-badge">
+                            <span class="badge-icon">🌟</span>
+                            <div class="badge-info">
+                                <h4>Premier Pas</h4>
+                                <p>Premier message posté</p>
+                            </div>
+                        </div>
+                        <div class="achievement-badge">
+                            <span class="badge-icon">💬</span>
+                            <div class="badge-info">
+                                <h4>Bon Communicant</h4>
+                                <p>Plus de 25 réponses</p>
+                            </div>
+                        </div>
+                        <div class="achievement-badge">
+                            <span class="badge-icon">❤️</span>
+                            <div class="badge-info">
+                                <h4>Contributeur Apprécié</h4>
+                                <p>Plus de 100 likes reçus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="member-since">Membre depuis: Janvier 2024</p>
+                </div>
+            </aside>
+            <section>
+                <h1>Mes Messages et Réponses</h1>
+                <article>
+                    <ul class="messages-list">
+                        <li class="my-message">
+                            <div class="message-header">
+                                <img src="profile.jpg" alt="Yoann" class="message-avatar">
+                                <div class="message-info">
+                                    <p class="author">Yoann Poupart</p>
+                                    <time>30/01/2025 à 15:25</time>
+                                </div>
+                            </div>
+                            <blockquote>Voici mon nouveau projet de visualisation de données en D3.js ! 📊</blockquote>
+                            <div class="message-engagement">
+                                <button class="upvote active">⬆️ <span>12</span></button>
+                                <button class="like active">❤️ <span>8</span></button>
+                                <button class="share">📤 <span>2</span></button>
+                                <span class="views">👁️ 45 vues</span>
+                            </div>
+                            <div class="reply">
+                                <div class="message-header">
+                                    <img src="user3.jpeg" alt="Marie" class="message-avatar">
+                                    <div class="message-info">
+                                        <p class="author">Marie Chen</p>
+                                        <time>30/01/2025 à 15:40</time>
+                                    </div>
+                                </div>
+                                <blockquote>Super projet ! As-tu pensé à ajouter des animations de transition ?</blockquote>
+                                <div class="message-engagement">
+                                    <button class="upvote">⬆️ <span>3</span></button>
+                                    <button class="like">❤️ <span>2</span></button>
+                                    <button class="share zero">📤 <span>0</span></button>
+                                    <span class="views">👁️ 12 vues</span>
+                                </div>
+                            </div>
+                            <form class="reply-form">
+                                <div class="reply-input-container">
+                                    <img src="profile.jpg" alt="Yoann" class="message-avatar">
+                                    <textarea 
+                                        placeholder="Écrire une réponse..." 
+                                        class="reply-input"
+                                        rows="1"
+                                    ></textarea>
+                                </div>
+                                <button type="submit" class="reply-submit">Répondre</button>
+                            </form>
+                        </li>
+                        <li class="my-message">
+                            <div class="message-header">
+                                <img src="profile.jpg" alt="Yoann" class="message-avatar">
+                                <div class="message-info">
+                                    <p class="author">Yoann Poupart</p>
+                                    <time>29/01/2025 à 14:23</time>
+                                </div>
+                            </div>
+                            <blockquote>J'ai adoré la dernière mise à jour du site. L'interface est beaucoup plus intuitive maintenant ! 👍</blockquote>
+                            <div class="message-engagement">
+                                <button class="upvote zero">⬆️ <span>0</span></button>
+                                <button class="like zero">❤️ <span>0</span></button>
+                                <button class="share zero">📤 <span>0</span></button>
+                                <span class="views">👁️ 5 vues</span>
+                            </div>
+                        </li>
+                        <li class="my-message">
+                            <div class="message-header">
+                                <img src="profile.jpg" alt="Yoann" class="message-avatar">
+                                <div class="message-info">
+                                    <p class="author">Yoann Poupart</p>
+                                    <time>28/01/2025 à 16:15</time>
+                                </div>
+                            </div>
+                            <blockquote>Quelqu'un a-t-il des suggestions pour améliorer la performance des requêtes SQL ?</blockquote>
+                            <div class="message-engagement">
+                                <button class="upvote active">⬆️ <span>15</span></button>
+                                <button class="like active">❤️ <span>11</span></button>
+                                <button class="share">📤 <span>3</span></button>
+                                <span class="views">👁️ 67 vues</span>
+                            </div>
+                            <div class="reply">
+                                <div class="message-header">
+                                    <img src="user2.jpeg" alt="Thomas" class="message-avatar">
+                                    <div class="message-info">
+                                        <p class="author">Thomas Dubois</p>
+                                        <time>28/01/2025 à 16:20</time>
+                                    </div>
+                                </div>
+                                <blockquote>As-tu essayé d'indexer les colonnes fréquemment utilisées ?</blockquote>
+                                <div class="message-engagement">
+                                    <button class="upvote active">⬆️ <span>8</span></button>
+                                    <button class="like active">❤️ <span>5</span></button>
+                                    <button class="share">📤 <span>1</span></button>
+                                    <span class="views">👁️ 34 vues</span>
+                                </div>
+                            </div>
+                            <form class="reply-form">
+                                <div class="reply-input-container">
+                                    <img src="profile.jpg" alt="Yoann" class="message-avatar">
+                                    <textarea 
+                                        placeholder="Écrire une réponse..." 
+                                        class="reply-input"
+                                        rows="1"
+                                    ></textarea>
+                                </div>
+                                <button type="submit" class="reply-submit">Répondre</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <div class="pagination">
+                        <button class="load-more">Charger plus de messages <span class="count">(37 restants)</span></button>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
