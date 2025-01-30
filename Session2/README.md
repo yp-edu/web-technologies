@@ -12,4 +12,4 @@
     - [Codewars](https://www.codewars.com/)
 
 - Profile challenge:
-    - [Profile](profil.html)
+    - [Profile](profile.html)
