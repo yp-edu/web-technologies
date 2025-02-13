@@ -11,12 +11,10 @@ function PageCard (props) {
 		{ id:4, symbol: "tutu", display: 'visible'}]);
 		
 	const addCarte = (evt) => {
-		console.log("Hello");
 		let newCard = {};
 		newCard.id=cartes.length+1;
 		newCard.symbol=document.getElementById("chp_symbol").value;
 		newCard.display=document.getElementById("menu_visible").value;
-		console.log(newCard);
 		setCartes([...cartes, newCard]);
 	}
 	
