@@ -16,3 +16,9 @@ Resources for the Web Technologies practical sessions at SU.
 
 - [Session 4:](./Session4/README.md)
     - React
+
+- [Session 5:](./Session5/README.md)
+    - React
+
+- [Session 6:](./Session6/README.md)
+    - Express
