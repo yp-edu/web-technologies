@@ -14,7 +14,7 @@ app.get('/test1', (req, res) => {
     res.send('Tout va à merveille pour cette page 1');
 });
 
-app.get('/essai:xxx', (req, res) => {
+app.get('/essai:xxx?', (req, res) => {
     res.setHeader('Content-Type', 'text/plain;charset=UTF-8');
     res.send(`Tout va à merveille pour cette page ${req.params.xxx}`);
 });
