@@ -22,3 +22,7 @@ Resources for the Web Technologies practical sessions at SU.
 
 - [Session 6:](./Session6/README.md)
     - Express
+
+- [Session 7:](./Session7/README.md)
+    - Client - Server
+    - Server with layers
