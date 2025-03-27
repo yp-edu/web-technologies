@@ -26,3 +26,6 @@ Resources for the Web Technologies practical sessions at SU.
 - [Session 7:](./Session7/README.md)
     - Client - Server
     - Server with layers
+
+- [Session 8:](./Session8/README.md)
+    - MongoDB

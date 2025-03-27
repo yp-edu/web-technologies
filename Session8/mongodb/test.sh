@@ -1,0 +1,2 @@
+# for macos
+mongosh
