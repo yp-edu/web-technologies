@@ -29,3 +29,7 @@ Resources for the Web Technologies practical sessions at SU.
 
 - [Session 8:](./Session8/README.md)
     - MongoDB
+
+## Feeback
+
+Feel free to open an issue or complete the [feedback form](https://nuage.lip6.fr/index.php/apps/forms/s/jC3nH2PJbbxcm3LYSiDkPKXb).
